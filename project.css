@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./img/food.jpg);
+
+  width: 99%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-star {
+  position: relative;
+  left: 16px;
+}
+.hero-star i {
+  color: #ffba08;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+.hamburger-icon {
+  border: none;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item a {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+.nav-item a:hover {
+  color: #ef233c;
+}
+.navbar-nav button {
+  position: relative;
+  left: 30%;
+}
+.headerrr h1 {
+  font-weight: bold;
+  font-family: sans;
+  color: #06d6a0;
+}
+.headerrr span {
+  color: #d90429;
+}
+.main {
+  position: relative;
+  display: flex;
+  top: 30%;
+}
+#hero h1 {
+  position: relative;
+  left: 18px;
+
+  font-size: 70px;
+  color: #fff;
+}
+.text-p {
+  color: #fff;
+  position: relative;
+  left: 20px;
+}
+.special-text {
+  text-align: center;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.img img {
+  position: relative;
+  bottom: 100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+.star {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  width: auto;
+}
+.star i {
+  position: relative;
+  top: 5px;
+  color: #ffba08;
+}
+.backgroung-pic {
+  background: url("https://images.squarespace-cdn.com/content/v1/5ff1275996a9ec7fa13e8914/1633009026870-IXEYQB0VJR8OT2NTJD76/alex-haney-CAhjZmVk5H4-unsplash.jpg")
+    center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 180px 0;
+  margin-top: 8%;
+}
+
+.img-new-event button {
+  position: relative;
+  bottom: 20%;
+  left: 30px;
+  width: auto;
+}
+.img-fluid {
+  transition: 1s;
+}
+.button-text {
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+
+.text-text {
+  position: relative;
+  top: 9px;
+  left: 6px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.text2 {
+  position: relative;
+  top: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-body {
+  text-align: center;
+  display: flex;
+}
+.img-fluid:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  cursor: pointer;
+}
+/* .card:hover {
+  transform: scale(1.3);
+  z-index: 1;
+  border-radius: 5px;
+  border: none solid #fff;
+} */
+.icon-foolter i {
+  position: relative;
+  top: 9px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.icon-foolter i:hover {
+  cursor: pointer;
+  font-size: 20px;
+  color: #0077b6;
+}
+.card {
+  border: none;
+  transition: 5s;
+}
+.card-body button {
+  position: relative;
+  left: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: #fff;
+  color: #ffba08;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border: solid 1px #fff;
+  border-radius: 20px;
+}
+.card-body button:hover {
+  background-color: yellow;
+}
+.img-new-event p {
+  position: relative;
+  bottom: 20%;
+  left: 5%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.img img {
+  animation: main 1s infinite;
+}
+#foolter {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(./img/foolter.jpg);
+
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h4 {
+  position: relative;
+  top: 50px;
+  font-size: 30px;
+  color: #fff;
+}
+.main-foolter {
+  position: relative;
+  top: 110px;
+  text-align: center;
+}
+.text-foolter {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+.ppp {
+  color: #adb5bd;
+}
+
+@keyframes main {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  /* 0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(-10px);
+  } */
+}
+@media (max-width: 994px) {
+  .img img {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .img-new-event button {
+    position: relative;
+    top: 5px;
+    bottom: 0%;
+    left: 0;
+  }
+  .img-new-event p {
+    position: relative;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    color: black;
+  }
+  h4 {
+    text-align: center;
+  }
+}
